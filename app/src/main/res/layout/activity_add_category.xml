@@ -12,7 +12,6 @@
         android:id="@+id/layout_add"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="@color/colorPrimary"
         android:gravity="center_vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -31,15 +30,14 @@
             android:layout_marginStart="5dp"
             android:text="Thêm sản phẩm"
             android:textAllCaps="true"
-
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/btn_refresh"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="80dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/ic_refresh_black_24dp" />
 
@@ -49,6 +47,7 @@
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:text="OK"
+            android:textSize="20dp"
             android:textAllCaps="true"/>
     </LinearLayout>
 
@@ -85,9 +84,9 @@
         <ImageView
             android:id="@+id/img_addcategory_ThemHinh"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="350dp"
             android:layout_marginTop="20dp"
             android:scaleType="fitXY"
-            android:src="@drawable/menu" />
+            android:src="@drawable/an" />
     </LinearLayout>
 </LinearLayout>
