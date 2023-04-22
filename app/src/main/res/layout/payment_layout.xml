@@ -11,7 +11,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
         >
         <ImageView
             android:id="@+id/img_payment_backbtn"
@@ -27,12 +26,10 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/img_payment_backbtn"
-            android:fontFamily="@font/muli_black"
             android:padding="10dp"
             android:text="Thanh toán"
             android:textAllCaps="true"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
@@ -47,7 +44,6 @@
             android:layout_height="wrap_content"
             android:text="ID: 1"
             android:textSize="20sp"
-            android:fontFamily="@font/muli_black"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textColor="@color/white"
@@ -61,12 +57,9 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="20/01/2021"
-            android:textColor="#008000"
+            android:textColor="@color/md_theme_light_inversePrimary"
             android:textSize="23sp" />
-
-
     </RelativeLayout>
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/gvDisplayPayment"
         android:layout_width="match_parent"
@@ -88,7 +81,6 @@
         android:layout_margin="5dp"
         android:elevation="10dp"
         >
-
         <LinearLayout
             android:id="@+id/linearl_total"
             android:layout_width="wrap_content"
@@ -97,13 +89,10 @@
             android:layout_marginRight="5dp"
             android:orientation="vertical">
 
-
-
             <TextView
                 android:id="@+id/txt_payment_TongTien"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/muli_black"
                 android:paddingTop="10dp"
                 android:text="780000 VNĐ"
                 android:textColor="@color/white"
@@ -119,7 +108,6 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:background="@drawable/corner_border_primary"
-            android:fontFamily="@font/muli_black"
             android:padding="10dp"
             android:text="OK"
             android:textSize="20sp" />

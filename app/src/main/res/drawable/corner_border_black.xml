@@ -5,6 +5,6 @@
 
     <corners android:radius="20dp" />
     <!--- This is the background color -->
-    <solid android:color="@color/black" />
+    <solid android:color="@color/md_theme_light_inversePrimary" />
 
 </shape>

@@ -2,7 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-<item android:title="Quản lý Coffee"></item>
         <item
             android:id="@+id/nav_home"
             android:title="Trang chủ"
@@ -26,7 +25,7 @@
                         android:icon="@drawable/ic_baseline_airline_seat_legroom_normal_24"/>
                     <item
                         android:id="@+id/nav_category"
-                        android:title="Quản Lý Menu"
+                        android:title="Quản lý menu"
                         android:icon="@drawable/ic_baseline_restaurant_menu_24"/>
 
                     <item
@@ -39,11 +38,11 @@
         <item
             android:id="@+id/ketnoi"
             android:icon="@drawable/ic_language_black_24dp"
-            android:title="Kết Nối Mạng Xã Hội"/>
+            android:title="Kết nối mạng xã hội"/>
         <item
             android:id="@+id/thongtinungdung"
             android:icon="@drawable/ic_info_outline_black_24dp"
-            android:title="Thông Tin Ứng dụng"/>
+            android:title="Thông tin ứng dụng"/>
         <item
             android:id="@+id/nav_logout"
             android:title="Đăng xuất"

@@ -40,7 +40,6 @@
                 android:textSize="16sp"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textColor="@color/black"
                 />
            <LinearLayout
                android:layout_width="wrap_content"
@@ -65,7 +64,6 @@
                    android:layout_height="wrap_content"
                    android:layout_gravity="center"
                    android:text="15"
-                   android:textColor="@color/black"
                    android:textStyle="bold"
                    android:gravity="center"
                    android:layout_toStartOf="@id/txt_custompayment_GiaTien"
@@ -83,7 +81,6 @@
                   />
            </LinearLayout>
         </LinearLayout>
-
         <TextView
             android:id="@+id/txt_custompayment_GiaTien"
             android:layout_width="0dp"
@@ -92,7 +89,6 @@
             android:layout_gravity="center"
             android:gravity="right"
             android:text="10000đ"
-            android:textColor="@color/black"
             android:fontFamily="@font/muli_black"
             android:textSize="18sp"
             />

@@ -14,7 +14,7 @@
         android:id="@+id/txtl_amountmenu_SoLuong"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:hint="Nhập số lượng"
         app:hintTextColor="@color/black"
         app:boxStrokeColor="@color/black"
@@ -36,8 +36,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="Đồng ý"
-        android:textColor="@color/black"
-        app:backgroundTint="#FECE2F" />
+        android:text="Đồng ý" />
 </LinearLayout>

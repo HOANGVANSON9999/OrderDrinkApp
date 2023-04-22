@@ -9,12 +9,11 @@
     android:orientation="vertical"
     android:padding="10dp"
     >
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtl_edittable_tenban"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:hint="Nhập tên bàn"
         app:hintTextColor="@color/black"
         app:boxStrokeColor="@color/black"
@@ -36,8 +35,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="Sửa bàn"
-        android:textColor="@color/black"
-        app:backgroundTint="#FECE2F" />
+        android:text="Sửa bàn" />
 </LinearLayout>

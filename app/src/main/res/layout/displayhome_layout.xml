@@ -4,7 +4,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightwhite"
     >
 
     <LinearLayout
@@ -26,8 +25,6 @@
             android:orientation="vertical"
             android:paddingBottom="20dp"
             >
-
-
             <LinearLayout
                 android:layout_margin="20dp"
                 android:layout_width="wrap_content"
@@ -48,7 +45,6 @@
                         android:layout_height="50dp"
                         android:elevation="8dp"
                         android:layout_margin="10dp"
-                        android:background="@color/colorPrimary"
                         >
 
                         <ImageView
@@ -74,7 +70,6 @@
                         android:layout_height="50dp"
                         android:elevation="8dp"
                         android:layout_margin="10dp"
-                        android:background="@color/colorPrimary"
                         >
 
                         <ImageView
@@ -98,7 +93,6 @@
                         android:layout_height="50dp"
                         android:elevation="8dp"
                         android:layout_margin="10dp"
-                        android:background="@color/colorPrimary"
                         >
 
                         <ImageView
@@ -122,18 +116,13 @@
                         android:layout_height="50dp"
                         android:elevation="8dp"
                         android:layout_margin="10dp"
-                        android:background="@color/colorPrimary"
                         >
-
                         <ImageView
                             android:layout_width="200dp"
                             android:layout_height="200dp"
                             android:layout_centerInParent="true"
                             android:src="@drawable/nvv" />
-
                     </RelativeLayout>
-
-
 
                 </LinearLayout>
 
@@ -268,7 +257,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:background="@color/colorPrimary"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -277,15 +265,13 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_marginStart="10dp"
-                        android:background="?android:attr/selectableItemBackgroundBorderless"
                         android:src="@drawable/ic_home_blue_24dp" />
                     <TextView
                         android:layout_marginTop="15dp"
                         android:layout_width="200dp"
                         android:layout_height="50dp"
-                        android:textColor="#ff0000"
+                        android:textColor="@color/md_theme_light_surfaceTint"
                         android:text="Menu của quán"
-
                         android:textAllCaps="true"
                         />
                     <ImageView
@@ -300,7 +286,7 @@
                         android:background="?attr/selectableItemBackground"
                         android:text="Xem thêm..."
                         android:textSize="16sp"
-                        android:textColor="#0A1D87" />
+                        android:textColor="@color/md_theme_light_inversePrimary" />
 
                     <ImageView
                         android:layout_width="30dp"
@@ -314,10 +300,7 @@
                         android:background="?attr/selectableItemBackground"
                         android:textSize="16sp"
                         android:textColor="#0A1D87" />
-
                 </LinearLayout>
-
-
 
             </RelativeLayout>
 
@@ -355,7 +338,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:background="@color/colorPrimary"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -364,13 +346,12 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_marginStart="10dp"
-                        android:background="?android:attr/selectableItemBackgroundBorderless"
                         android:src="@drawable/ic_home_blue_24dp" />
 <TextView
     android:layout_marginTop="15dp"
     android:layout_width="200dp"
     android:layout_height="50dp"
-    android:textColor="#ff0000"
+    android:textColor="@color/md_theme_light_surfaceTint"
     android:text="Thanh toán trong ngày"
     android:textSize="15dp"
     android:textAlignment="center"
@@ -388,8 +369,7 @@
                         android:background="?attr/selectableItemBackground"
                         android:text="Xem thêm..."
                         android:textSize="16sp"
-                        android:textColor="#0A1D87" />
-
+                        android:textColor="@color/md_theme_light_inversePrimary" />
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="35dp"
@@ -399,23 +379,16 @@
                         android:id="@+id/category_danhmuc"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="?attr/selectableItemBackground"
                         android:textSize="16sp"
-                        android:textColor="#0A1D87" />
-
+                        android:textColor="@color/md_theme_light_inversePrimary" />
                 </LinearLayout>
-
-
-
             </RelativeLayout>
-
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rcv_displayhome_DonTrongNgay"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:clipToPadding="false"
                 />
-
         </LinearLayout>
 
     </LinearLayout>

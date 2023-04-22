@@ -21,7 +21,6 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.splash_layout);
 
         //tạo đối tượng view
-        ImageView IMGLogo = (ImageView)findViewById(R.id.imgLogo);
         TextView TXTCoffeeshop = (TextView)findViewById(R.id.txtCoffeeshop);
         TextView TXTPowered = (TextView)findViewById(R.id.txtPowered);
 
@@ -30,7 +29,6 @@ public class SplashActivity extends AppCompatActivity {
         Animation bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_anim);
 
         //thiết lập animation cho component
-        IMGLogo.setAnimation(sideAnim);
         TXTCoffeeshop.setAnimation(sideAnim);
         TXTPowered.setAnimation(bottomAnim);
 

@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:paddingTop="7dp"
         android:paddingBottom="7dp"
-        android:background="@color/colorPrimary"
         android:layout_marginBottom="7dp"
         >
         <TextView
@@ -21,7 +20,6 @@
             android:layout_height="wrap_content"
             android:text="ID: 1"
             android:textSize="18sp"
-            android:textColor="@color/black"
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="10dp"
@@ -43,7 +41,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="20/01/2021"
-            android:textColor="#008000"
+            android:textColor="@color/md_theme_light_inversePrimary"
             android:textSize="23sp" />
 
 
@@ -59,7 +57,7 @@
             android:id="@+id/txt_customstatistic_TenNV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lê Gia Huy"
+            android:text="Nguyễn Huy Phước Tấn"
             android:textSize="22sp"
             android:textColor="@color/black"
             android:fontFamily="@font/muli_black"
@@ -83,11 +81,15 @@
             android:textSize="18sp"
             android:layout_marginLeft="10dp"
             />
+
         <View
-            android:layout_margin="0dp"
-            android:background="#ff0000"
             android:layout_width="match_parent"
-            android:layout_height="2dp"/>
+            android:layout_height="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#ff0000" />
 
         <TextView
             android:id="@+id/txt_customstatistic_TrangThai"
