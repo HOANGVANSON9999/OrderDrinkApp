@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrderDrinkApp">
         <activity
+            android:name=".AddCategoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activityprofile"
             android:exported="false" />
 
