@@ -6,7 +6,6 @@
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
     >
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +23,6 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="10dp"
             />
-
         <ImageView
             android:id="@+id/img_customstatistic_calendar"
             android:layout_width="wrap_content"
