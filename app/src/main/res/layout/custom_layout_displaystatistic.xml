@@ -32,7 +32,6 @@
             android:layout_toLeftOf="@id/txt_customstatistic_NgayDat"
             android:layout_centerVertical="true"
             />
-
         <TextView
             android:id="@+id/txt_customstatistic_NgayDat"
             android:layout_width="match_parent"
